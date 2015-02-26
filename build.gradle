@@ -18,6 +18,13 @@ allprojects {
     }
 }
 
+checkstyleTask {
+  reports {
+    xml {
+      destination "build/codenarc.xml"
+    }
+  }
+}
 apply plugin: 'checkstyle'
 
 
