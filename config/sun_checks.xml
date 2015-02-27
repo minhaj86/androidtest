@@ -165,7 +165,7 @@
         <!-- Checks for common coding problems               -->
         <!-- See http://checkstyle.sf.net/config_coding.html -->
 <!--        <module name="AvoidInlineConditionals"/> -->
-        <module name="DoubleCheckedLocking"/>    <!-- MY FAVOURITE -->
+        <!--module name="DoubleCheckedLocking"/>    <!- MY FAVOURITE -->
         <module name="EmptyStatement"/>
         <module name="EqualsHashCode"/>
         <module name="HiddenField"/>
@@ -190,17 +190,17 @@
         <!-- See http://checkstyle.sf.net/config_misc.html -->
 <!--        <module name="ArrayTypeStyle"/> -->
 <!--        <module name="FinalParameters"/> -->
-        <module name="GenericIllegalRegexp">
+        <!--module name="GenericIllegalRegexp">
             <property name="format" value="\s+$"/>
             <property name="message" value="Line has trailing spaces."/>
-        </module>
+        </module-->
         <module name="TodoComment"/>
         <module name="UpperEll"/>
 
 	<!-- Optional Checks -->
-        <module name="usage.OneMethodPrivateField"/>
-        <module name="usage.UnusedLocalVariable"/>
-        <module name="usage.UnusedParameter"/>
+        <!--module name="usage.OneMethodPrivateField"/-->
+        <!--module name="usage.UnusedLocalVariable"/-->
+        <!--module name="usage.UnusedParameter"/-->
 
     </module>
 
