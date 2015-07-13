@@ -107,6 +107,6 @@
 				<artifactId>maven-jxr-plugin</artifactId>
 			</plugin>
 		</plugins>
-	</reporting:>
+	</reporting:::>
 </project>
 
